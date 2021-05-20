@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <title>My Photo Gallery</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <center>
+        <ul class="menu">
+
+            <li class="links"><a href="#home">home</a></li>
+            <li class="links"><a href="#grid">grid</a></li>
+            <li class="links"><a href="#sliding">sliding</a></li>
+        </ul>
+    </center>
+    <section id="home"><img src="https://media.giphy.com/media/3GnKKEw2v7bXi/giphy.gif">
+        <h1>Avengers</h1>
+    </section>
+    <section id="grid">
+        <h2>GRID GALLERY</h2>
+        <span>
+            <div>
+                <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2019/05/Thor-4-Movie.jpg">
+                <img src="https://www.pixel4k.com/wp-content/uploads/2019/09/ironman_1568055212.jpg">
+            </div>
+            <div>
+                <img src="https://cdn3.movieweb.com/i/article/9EQZueVTaS9BwFdrZDdDWWHd1IdkIU/1200:100/Captain-America-Chris-Evans-Marvel-Return-Fans-Divided.jpg">
+                <img src="https://www.trbimg.com/img-5b733455/turbine/ct-intense-thanos-moments-infinity-war-20180814">
+            </div>
+            <div>
+                <img src="https://tse3.mm.bing.net/th?id=OIP.Weu_IsSHJcfYn3XYYKwIFAHaE8&pid=Api&P=0&w=238&h=160">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.Tmj_SMOCuL1UaLyApHH8oAHaK-&pid=Api&P=0&w=300&h=300">
+            </div>
+        </span>
+    </section>
+    <section id="sliding">
+        <h2>SLIDING GALLERY</h2>
+        <div id="myCarousel" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <a><img src="https://tse2.mm.bing.net/th?id=OIP.PDWdBJd8Uvqwbni19n5jogHaDt&pid=Api&P=0&w=348&h=175" class="img-responsive"></a>
+                        <div class="carousel content">
+                            <p>Black_Panther</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <a><img src="http://nerdreactor.com/wp-content/uploads/2018/04/AIW_Online_1_Sheet_Okoye_v1_sm.jpg" class="img-responsive"></a>
+                        <div class="carousel content">
+                            <p>Okoye</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <a><img src="https://tse3.mm.bing.net/th?id=OIP.grTqwqUdvRjVy9TH2ZpoJAHaHp&pid=Api&P=0&w=300&h=300" class="img-responsive"></a>
+                        <div class="carousel content">
+                            <p>Shuri</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <a><img src="http://1.bp.blogspot.com/-NGkOtkd-1Lo/Vh54ae672GI/AAAAAAAA2FI/snK7kKP1zTM/s1600/Ant-Man-Concept-Art-by-Andy-Park-05.jpg" class="img-responsive"></a>
+                        <div class="carousel content">
+                            <p>Ant_Man</p>
+                        </div>
+                    </center>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>
+    </section>
+</body></html>

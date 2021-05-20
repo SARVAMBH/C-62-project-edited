@@ -1,0 +1,56 @@
+body
+{
+    text-align:center;
+    font-size:21px;
+    background:linear-gradient(maroon 20%,brown 80%)
+}
+#grid img{
+    height: 200px;
+    width: 200px;
+    border-radius:30px;
+    border-width:5px;
+    border:linear-gradient(peachpuff 20%,antiquewhite 80%);
+    border-style:outset;
+}
+
+#home img {
+    height: 100%;
+    width: 100%;
+}
+#myCarousel {
+    background: linear-gradient(maroon 20%, red 80%);
+}
+
+#myCarousel img {
+    height: 300px;
+    width: 321px;
+    margin-top: 35px;
+}
+
+.carousel-inner p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: lightcyan;
+    font-size: 20px;
+}
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: inherit;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: sandybrown;
+    text-decoration: underline;
+}
+.menu {
+    top: 0px;
+    right: 30px;
+    z-index: 10;
+    position: fixed;
+    margin-top: 0px;
+    width: 100%;
+    background: white;
+}
